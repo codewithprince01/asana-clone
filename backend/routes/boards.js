@@ -4,7 +4,12 @@ const Task = require('../models/Task');
 
 const router = express.Router();
 
+router.get('/test', (req, res) => {
+  res.json({ message: 'Boards route is working!' });
+});
+
 // GET /boards - list all boards
+
 router.get('/', async (req, res, next) => {
   try {
     const boards = await Board.find().sort({ createdAt: 1 });
