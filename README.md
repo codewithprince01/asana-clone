@@ -6,7 +6,7 @@ A simple Asana-style kanban board built with **Node.js/Express + MongoDB (Mongoo
 - Create/edit/delete tasks, update status, and manage multiple boards.
 - Frontend and backend follow the exact API contracts described in the task.
 
-[🚀 Live Demo](https://asana-clone-9npw.onrender.com)  
+[🚀 Live Demo](https://asana-clone-one.vercel.app/)  
 
 ---
 
